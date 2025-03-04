@@ -1,2 +1,2 @@
 # CIFAR_10_Classification
-A simple model using CNN to predict one of the images 
+A simple CNN to predict one of the images from the dataset containing 10 different categories to predict from.
