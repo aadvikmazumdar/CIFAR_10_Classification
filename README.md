@@ -35,34 +35,26 @@ The CNN model consists of **4 layers** with the following components:
 
 ---
 
-## 🔧 Installation & Setup
-1️⃣ Clone the repository:
-```bash
- git clone https://github.com/yourusername/CIFAR-10-Classification.git
- cd CIFAR-10-Classification
+## 🚀 Uploading the Model
+Once the model is trained, you can save and upload it for later use:
+
+1️⃣ Save the trained model:
+```python
+model.save("Cifar-10.h5")
 ```
 
-2️⃣ Install dependencies:
-```bash
- pip install -r requirements.txt
-```
+2️⃣ Upload the saved model to your desired storage or deployment platform.
 
-3️⃣ Run the training script:
-```bash
- python train.py
-```
-
-4️⃣ Test the model:
-```bash
- python test.py
+3️⃣ Load the model when needed:
+```python
+from tensorflow.keras.models import load_model
+model = load_model("Cifar-10.h5")
 ```
 
 ---
 
 ## 📊 Results
-The model achieves **89.6% accuracy** on the CIFAR-10 dataset. Below is a sample classification result:
-
-![Sample Output](sample_output.png)
+The model achieves **89.6% accuracy** on the CIFAR-10 dataset.
 
 ---
 
@@ -74,5 +66,4 @@ Feel free to contact me if you have ideas for improving this project or want to 
 ## 📜 License
 This project is licensed under the **MIT License**.
 
-📩 *For queries, reach out at* [your.email@example.com](mailto:your.email@example.com)
-
+📩 *For queries, reach out at* [aadvikmazumdar@gmail.com](mailto:aadvikmazumdar@gmail.com)
